@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+
+    <div class="grid">
+
+        <div id="navbar">
+            <ul>
+                <li class="opcoes"><a href="#header">Inicio</a></li>
+                <li class="opcoes" id="opcao2"><a href="#texto-principal">Projetos</a></li>
+                <li class="opcoes" id="opcao3"><a href="#texto-secundario">Ambições Futuras</a></li>
+                <input type="button" id="alternarCor">
+            </ul>
+        </div>
+
+    
+        <header id="header">
+            <h1>Olá, Bem-Vindo</h1>
+        </header>
+
+        <section id="cartao1">
+            <h3>Sobre mim</h3>
+            <p>Chamo-me Dinis, tenho 20 anos e sou estudante de programação.</p>
+        </section>
+
+        <section id="cartao2">
+            <h3>Percurso</h3>
+            <p>Secundária na ESA, curso de Programação, Etic com Programação web</p>
+        </section>
+
+        <section id="cartao3">
+            <h3>Linguagens Conhecidas</h3>
+            <p>
+                HTML <br>
+                CSS <br>
+                PHP <br>
+                SQL <br>
+                JavaScript <br>
+            </p>
+        </section>
+
+        <section id="cartao4">
+            <h3>Contato</h3>
+            <p>Email: dinidsantos@gmail.com</p>
+            <p>Telemóvel: 967314975</p>
+        </section>
+
+
+        <section id="texto-principal">
+            <h2>Meus projetos</h2>
+            <div id="imagens">
+                <img src="musiceros1.png" alt="musiceros1">
+                <a href="https://dinobuefixe.github.io/frontend1_projeto/"><img src="huhanime1.png" alt="huhanime1"></a>
+                <img src="musiceros3.png" alt="musiceros3">
+                <a href="https://dinobuefixe.github.io/frontend1_projeto/"><img src="huhanime2.png" alt="huhanime2"></a>
+            </div>
+        </section>
+
+        <section id="texto-secundario">
+            <div>
+                <h2>Ambições futuras</h2>
+                <p>Gostaria de me especializar em desenvolvimento web full stack, e futuramente trabalhar numa empresa de renome na área de programação.</p>
+                <p>Alguns projetos que gostava de fazer seriam aplicações para uso pessoal e quando estivesse mais experiente trabalhar remotamente, seja para uma empresa ou como freelancer.</p>
+            </div>
+        </section>
+
+        <footer>
+            <div id="redes-sociais">
+                 <a href="https://www.gmail.com" target="_blank"><img src="email.png" alt="email"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="insta.svg" alt="instagram"></a>
+                <a href="https://www.github.com" target="_blank"><img src="github.png" alt="github"></a>
+            </div>
+           <div id="mensagem">
+            <h3>Deixe Uma Mensagem</h3>
+                <form>
+                    <label for="nome">Nome</label>  
+                    <input type="text" id="nome" name="nome" required placeholder="Insira o seu Nome"> <br>
+             
+                    <label for="mensagem">Mensagem</label> 
+                    <textarea id="mensagem" name="mensagem" required placeholder="Insira a sua Mensagem" cols="50" rows="3" class="texto-grande"></textarea> <br>
+                    <button type="submit" id="botao">Enviar</button>
+                       
+                    
+                </form>
+
+                <div id="myModal" class="modal"> 
+                    <div class="modal-content"> 
+                        <span class="close">&times;</span> 
+                        <p>Obrigado pelo feedback/mensagem</p> 
+                    </div> 
+                </div>
+
+           </div>
+
+
+        </footer>
+
+    </div>
+
+
+
+
+
+</body>
+</html>
